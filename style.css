@@ -1,0 +1,204 @@
+
+body{
+    font-family: sans-serif;
+    background-image:radial-gradient(#050B2C 0%, #000000 100%);
+    
+}
+.mainlogo{
+   margin-left: 7%;
+    margin-bottom: 5%;
+   display: inline-block;
+}
+
+.container{
+    width: 324px;
+    margin: 2%;
+    display: inline-block; 
+    padding: 2%;
+   
+    
+    
+}
+.log-in{
+    color:white;
+    display: inline-block; 
+    
+   
+}
+label{
+    color: white;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #C4C4C4;
+    opacity: 0.66;
+    display: inline-block;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #C4C4C4;
+    opacity: 0.66;
+    display: inline-block;
+}
+.nextlink  {
+    width: 70%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    margin-left: 8%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+  .nextlink:hover{
+    width: 70%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    margin-left: 8%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+  .forgot{
+      margin-left: 30%;
+      color: white;
+      opacity: 0.5;
+  }
+  .forgot:hover{
+      opacity: 1;
+  }
+  .borderbox{
+    width: 128%;
+    height: 70%;
+    margin-top: -10%;
+    margin-left:-22%;
+    position: absolute;
+    
+   
+  }
+  
+  
+  @media screen and (min-width:900px){
+    body{
+        font-family: sans-serif;
+        background-image:radial-gradient(#050B2C 0%, #000000 100%);
+        background-image: url('images/circuit bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .mainlogo{
+      margin-top:5%;
+      margin-left: 40%;
+       display: inline-block;
+    }
+    
+    .container{
+        width: 324px;
+        margin-left: 35%;
+        display: inline-block; 
+        border-right: 3px solid  white;
+        border-left: 3px solid  rgb(255, 255, 255);
+        border-top: 3px solid   rgb(255, 255, 255);
+        border-bottom: 3px solid rgb(255, 255, 255);
+        padding: 4%;
+       
+        
+        
+    }
+    .log-in{
+        color:white;
+        display: inline-block; 
+        
+       
+    }
+    label{
+        color: white;
+    }
+    input[type=text]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background: #C4C4C4;
+        opacity: 0.66;
+        display: inline-block;
+    }
+    input[type=password]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background: #C4C4C4;
+        opacity: 0.66;
+        display: inline-block;
+    }
+    .nextlink  {
+        width: 70%;
+        background-color: black;
+        color: white;
+        padding: 14px 20px;
+        margin: 5px 0;
+        margin-left: 8%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+      }
+      .nextlink:hover{
+        width: 70%;
+        background-color: black;
+        color: white;
+        padding: 14px 20px;
+        margin: 5px 0;
+        margin-left: 8%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        opacity: 0.5;
+        text-decoration: none;
+      }
+      .forgot{
+          margin-left: 30%;
+          color: white;
+          opacity: 0.5;
+      }
+      .forgot:hover{
+          opacity: 1;
+      }
+      .borderbox{
+          display: none;
+      }
+  }
